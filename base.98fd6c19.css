@@ -38,16 +38,16 @@ body {
 
 .demo-2 {
 	--color-text: #a5a5a5;
-	--color-bg: #000000;
+	--color-bg: rgb(22, 59, 184);
 	--color-link: #ea34a6;
 	--color-link-hover: #fff;
 	--color-font-circle: #7b7772;
 	--color-button: #ea34a6;
-	--color-text-button: #000000;
+	--color-text-button: rgb(13, 66, 240);
 	--color-text-circle-1: #ea34a6;
 	--color-text-circle-2: #422163;
-	--color-text-circle-3: #212044;
-	--color-text-circle-4: #292725;
+	--color-text-circle-3: #433fb8;
+	--color-text-circle-4:rgb(87, 115, 218);
 	--font-circle-1: niagara, serif;
 	--font-weight-circle-1: 300;
 	--font-circle-2: ambroise-firmin-std, serif;
@@ -351,5 +351,6 @@ a:focus-visible {
 		height: 100vh;
 		justify-content: center;
 		text-align: left;
+		font-size:larger;
 	}
 }
